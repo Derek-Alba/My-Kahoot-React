@@ -1,0 +1,33 @@
+.card {
+    position: relative;
+    width: 280px;
+    height: 130px;
+
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.title1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 40px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: lowercase;
+}
+
+.contenedorr {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+
+.title1:first-letter {
+    text-transform: uppercase;
+}
